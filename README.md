@@ -48,3 +48,39 @@ A simple Python script to generate secure, random passwords based on user prefer
 ## Requirements
 - Python 3.x
 - `random` and `string` libraries (built-in)
+
+
+
+
+--- Password Manager
+
+A simple command-line password manager written in Python.
+
+## Features
+- Secure password storage with base64 encryption
+- Generate strong, random passwords
+- Add, retrieve, list, and delete passwords
+- Save and load passwords from a file
+
+## Usage
+1. Run the script
+2. Enter the master password (default: 'master')
+3. Choose an option from the menu:
+   - Add Password: add a new password
+   - Get Password: retrieve a password
+   - List Services: list stored services
+   - Generate Password: generate a strong password
+   - View All Passwords: view all stored passwords
+   - Delete Password: delete a password
+   - Save Password: save passwords to file
+   - Exit: quit the program
+
+## Code Structure
+- `Password`: represents a password with service, username, and password
+- `PasswordVault`: manages a list of passwords and provides encryption/decryption
+- `main()`: handles user input and output
+
+## Requirements
+- Python 3.x
+- `base64` library (built-in)
+- `password_generator` module (separate file)
