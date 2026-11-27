@@ -54,7 +54,7 @@ Password_generator_-_manager/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Chima-001/Password_generator_-_manager.git
+git clone https://github.com/Chima-001/Passwords-generator-manager.git
 cd Password_generator_-_manager
 ```
 
