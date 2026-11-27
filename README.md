@@ -54,8 +54,8 @@ Password_generator_-_manager/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Chima-001/Passwords-generator-manager.git
-cd Password_generator_-_manager
+git clone https://github.com/Chima-001/Passwords_generator_manager.git
+cd Passwords_generator_manager
 ```
 
 2. Install the required dependency (the password manager needs the `cryptography` package for Fernet encryption):
