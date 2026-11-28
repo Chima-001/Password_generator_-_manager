@@ -163,7 +163,7 @@ pip install pytest
 pytest test_passwords_manager.py
 ```
 
-> **Note:** Running the tests removes `master.txt` and `secret.key` if they exist. You will need to recreate your master password in `passwords_manager.py` afterward.
+> **Note:** Running the tests removes `master.txt` and `secret.key` if they exist. You will need to recreate your master password in `passwords_manager.py` afterward. To stop the cleanup after every test run, comment out or delete the lines 218-223 in the `test_passwords_manager.py`
 
 ## Security Disclaimer
 
